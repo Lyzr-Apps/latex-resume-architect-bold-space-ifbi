@@ -1,0 +1,42 @@
+{
+  "agent_name": "LaTeX Resume Architect Agent",
+  "agent_id": "699b358bf505f1398ce6c2a7",
+  "description": "Converts LinkedIn profile data (retrieved from KB) into a professional, ATS-optimized LaTeX resume tailored to a provided Job Description. Maps LinkedIn sections (About, Experience, Education, Skills) into LaTeX environments (ModernCV/Awesome-CV), reorders skills by JD-priority keywords, generates placeholders for missing sections, and ensures all special characters are properly escaped for compilation.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "latex_code": "string",
+    "template_type": "string",
+    "sections_mapped": [
+      "string"
+    ],
+    "missing_sections": [
+      "string"
+    ],
+    "keywords_injected": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "latex_code": "The complete LaTeX source code for the resume",
+    "template_type": "The LaTeX template used (ModernCV or Awesome-CV)",
+    "sections_mapped": [
+      "sample string"
+    ],
+    "missing_sections": [
+      "sample string"
+    ],
+    "keywords_injected": [
+      "sample string"
+    ]
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/file.pdf"
+      }
+    ]
+  }
+}

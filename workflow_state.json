@@ -1,0 +1,13 @@
+{
+  "agents": [
+    {
+      "name": "LaTeX Resume Architect Agent",
+      "agent_id": "699b358bf505f1398ce6c2a7",
+      "type": "single",
+      "has_knowledge_base": true,
+      "rag_id": "699b357a3dc9e9e528285c87",
+      "file_output": true
+    }
+  ],
+  "workflow": "single_agent"
+}

@@ -1,0 +1,13 @@
+{
+  "agent_name": "LaTeX Resume Architect Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": true,
+  "fields": {
+    "latex_code": "string - The complete LaTeX source code",
+    "template_type": "string - Template used (ModernCV or Awesome-CV)",
+    "sections_mapped": "array of strings - LinkedIn sections mapped",
+    "missing_sections": "array of strings - Sections with TODO placeholders",
+    "keywords_injected": "array of strings - JD keywords injected"
+  }
+}
