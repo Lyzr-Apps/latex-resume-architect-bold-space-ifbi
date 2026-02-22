@@ -1,12 +1,12 @@
 {
   "agents": [
     {
-      "name": "LaTeX Resume Architect Agent",
-      "agent_id": "699b358bf505f1398ce6c2a7",
+      "name": "Wealth Architect Agent",
+      "agent_id": "699b3959297d26c03fdeb117",
       "type": "single",
       "has_knowledge_base": true,
-      "rag_id": "699b357a3dc9e9e528285c87",
-      "file_output": true
+      "rag_id": "699b393f3dc9e9e528285c8b",
+      "file_output": false
     }
   ],
   "workflow": "single_agent"

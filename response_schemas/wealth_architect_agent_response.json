@@ -1,0 +1,74 @@
+{
+  "agent_name": "Wealth Architect Agent",
+  "agent_id": "699b3959297d26c03fdeb117",
+  "description": "Financial Auditor & Insight Coach that analyzes bank statements to categorize spending, detect ghost subscriptions, calculate financial health metrics, and provide conversational financial advice. Never stores or asks for personal identifiable information.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "analysis_type": "string",
+    "spending_categories": [
+      {
+        "category": "string",
+        "amount": "number",
+        "percentage": "number",
+        "transaction_count": "number"
+      }
+    ],
+    "total_spending": "number",
+    "total_income": "number",
+    "ghost_subscriptions": [
+      {
+        "name": "string",
+        "amount": "number",
+        "frequency": "string"
+      }
+    ],
+    "financial_health_score": "number",
+    "savings_rate": "number",
+    "chat_response": "string",
+    "recommendations": [
+      "string"
+    ],
+    "monthly_trend": [
+      {
+        "period": "string",
+        "spending": "number",
+        "income": "number"
+      }
+    ]
+  },
+  "example_response": {
+    "analysis_type": "Either 'dashboard' for full analysis or 'chat' for conversational response",
+    "spending_categories": [
+      {
+        "category": "sample string",
+        "amount": 0,
+        "percentage": 0,
+        "transaction_count": 0
+      }
+    ],
+    "total_spending": 0,
+    "total_income": 0,
+    "ghost_subscriptions": [
+      {
+        "name": "sample string",
+        "amount": 0,
+        "frequency": "sample string"
+      }
+    ],
+    "financial_health_score": 0,
+    "savings_rate": 0,
+    "chat_response": "Conversational response for chat queries",
+    "recommendations": [
+      "sample string"
+    ],
+    "monthly_trend": [
+      {
+        "period": "sample string",
+        "spending": 0,
+        "income": 0
+      }
+    ]
+  }
+}

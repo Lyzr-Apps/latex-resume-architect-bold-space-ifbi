@@ -1,0 +1,18 @@
+{
+  "agent_name": "Wealth Architect Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "fields": {
+    "analysis_type": "string - Either 'dashboard' or 'chat'",
+    "spending_categories": "array of objects - {category, amount, percentage, transaction_count}",
+    "total_spending": "number - Total spending amount",
+    "total_income": "number - Total income detected",
+    "ghost_subscriptions": "array of objects - {name, amount, frequency}",
+    "financial_health_score": "number - Score 0-100",
+    "savings_rate": "number - Percentage saved",
+    "chat_response": "string - Conversational response for chat",
+    "recommendations": "array of strings - Financial tips",
+    "monthly_trend": "array of objects - {period, spending, income}"
+  }
+}
